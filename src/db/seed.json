@@ -1,0 +1,54 @@
+[
+  {
+    "code": "86152",
+    "description": "Cell enumeration & id"
+  },
+  {
+    "code": "86153",
+    "description": "Cell enumeration phys interp"
+  },
+  {
+    "code": "86890",
+    "description": "Autologous blood process"
+  },
+  {
+    "code": "86891",
+    "description": "Autologous blood op salvage"
+  },
+  {
+    "code": "86927",
+    "description": "Plasma fresh frozen"
+  },
+  {
+    "code": "86930",
+    "description": "Frozen blood prep"
+  },
+  {
+    "code": "86931",
+    "description": "Frozen blood thaw"
+  },
+  {
+    "code": "86932",
+    "description": "Frozen blood freeze/thaw"
+  },
+  {
+    "code": "86945",
+    "description": "Blood product/irradiation"
+  },
+  {
+    "code": "86950",
+    "description": "Leukacyte transfusion"
+  },
+  {
+    "code": "86960",
+    "description": "Vol reduction of blood/prod"
+  },
+  {
+    "code": "86965",
+    "description": "Pooling blood platelets"
+  },
+  {
+    "code": "86985",
+    "description": "Split blood or products"
+  }
+]
