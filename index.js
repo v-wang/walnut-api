@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express();
+app.set('views', './src/views');
 app.set('view engine', 'hbs');
+app.use(express.urlencoded({ extended: true }));
 
 const appController = require('./src/controllers/app');
 app.use('/', appController);
