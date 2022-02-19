@@ -9,4 +9,11 @@ router.get('/', (req, res) => {
   });
 });
 
+// show
+router.get('/:code', (req, res) => {
+  MedicalCode.findOne({ code: req.params.code }).then((code) => {
+    res.json(code);
+  });
+});
+
 module.exports = router;
