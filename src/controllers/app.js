@@ -3,7 +3,7 @@ const router = express.Router();
 const MedicalCode = require('../models/MedicalCode');
 
 // index - show all medical codes
-router.get('/', (req, res) => {
+router.get('/show', (req, res) => {
   MedicalCode.find({}).then((codes) => {
     res.json(codes);
   });

@@ -6,6 +6,12 @@ This is a RESTful API that returns JSON data on a limited set of Current Prodced
 
 ## Examples
 
+Base path: localhost:4000
+
+### Show
+
+`localhost:4000/show`
+
 ```JSON
 [
   {
