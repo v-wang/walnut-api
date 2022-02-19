@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-dbName = 'walnut-api';
 
+dbName = 'walnut-api';
 const mongoURI =
   process.env.NODE_ENV === 'production'
     ? process.env.DB_URL
